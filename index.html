@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tic Tac Toe</title>
-</head>
-<body>
-    
-    <script src="app.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Tic Tac Toe</title>
+	</head>
+	<body>
+		<div id="content-container">
+			<div id="box">
+                <div id="overlay">
+                 <h2>You Win</h2>
+                 <p id="player-won"></p>
+                 <p id="x-wins"></p>
+                 <p id="o-wins"></p>
+                 <button id="reset-btn">Reset</button>
+                </div>
+				<div id="row-1">
+					<div id="box-1" class="box right-line"></div>
+					<div id="box-2" class="box right-line mid-line"></div>
+					<div id="box-3" class="box right-line"></div>
+				</div>
+				<div id="row-2">
+					<div id="box-4" class="box right-line"></div>
+					<div id="box-5" class="box right-line mid-line"></div>
+					<div id="box-6" class="box right-line"></div>
+				</div>
+				<div id="row-3">
+					<div id="box-7" class="box"></div>
+					<div id="box-8" class="box mid-line"></div>
+					<div id="box-9" class="box"></div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
 </html>

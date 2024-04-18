@@ -1,0 +1,69 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  font-family: monospace;
+}
+
+#content-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box {
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  cursor: pointer;
+  padding-bottom: .7rem;
+}
+.right-line {
+	border-right: 4px solid black;
+}
+
+.mid-line {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+#overlay {
+  z-index: 10;
+  background-color: rgba(61, 55, 55, 0.9);
+  height: 30rem;
+  width: 30rem;
+  position: absolute;
+  text-align: center;
+  color: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#overlay h2{
+  margin: 2rem;
+  font-size: 3rem;
+}
+
+#overlay p {
+  font-size: 1.45rem;
+  margin: 2rem;
+}
+
+#player-won {
+  font-size: 1.9rem !important;
+}
+button {
+  padding: 1rem;
+  cursor: pointer;
+}
